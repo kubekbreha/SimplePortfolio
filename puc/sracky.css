@@ -1,0 +1,511 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  height: 100%;
+  color: #000;
+
+}
+
+html{
+    height: 100%;
+}
+
+.overflow{
+    width: 100%;
+    clear: both;
+}
+
+.patricia_b{
+    width:25%;
+    font-size: 11px;
+    font-family: 'Roboto Mono';
+    float:left;
+    z-index: 2;
+    position: absolute;
+    color: #000;
+    margin-left: 75%;
+    margin-top: 10%;
+}
+
+.patricia_b a{
+    margin:0;
+    padding: 0;
+    font-size: 2rem;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    font-weight:100;
+    color: #000;
+    width:50%;   
+}
+
+.patricia_b a:hover{
+    color: blue;
+}
+
+.upper_number{
+    font-size: 3rem;
+}
+
+.upper_text{
+    font-size:2rem;
+}
+
+.bottom_text{
+    font-size: 0.8rem;
+}
+
+.bottom_a{
+    font-size: 0.7rem;
+    color: #70abf2;
+    text-decoration-line: underline;
+}
+
+.bottom_a:hover{
+    color:blue;
+}
+
+#menu{
+    float: right;
+    padding-top: 2rem;
+    mix-blend-mode: exclusion;
+}
+
+#menuOpenButton{
+    float: right;
+}
+
+#menuCloseButton{
+    float: right;
+}
+
+.nadpis{
+    font-size: 2.5rem;
+    padding-top: 15rem;
+    text-align: center;
+}
+
+.meno{
+    padding-left: 1.6%;
+    padding-bottom:10%;
+    padding-top:10%;
+    width: 50%;
+}
+
+
+
+#designer{
+    font-size: 30px;
+    text-align:left;
+    width: 100%;
+    font-family: 'GTF Adieu TRIAL';
+    font-weight: 100;
+}
+
+
+.footer-link{
+    padding: 0;
+    margin: 0;
+}
+
+
+#h1_footer{
+    font-family: 'Krona One', sans-serif;
+    font-size: 14px;
+}
+
+.footer-link{
+    padding: 0;
+    margin: 0;
+}
+
+
+#h1_footer{
+    font-family: 'Krona One', sans-serif;
+    font-size: 14px;
+}
+
+#footer{
+    width:85%;
+    padding: 0;
+    margin: 7.5%;
+    height:auto;
+}
+
+.copyright{
+    overflow: auto;
+    width: 50%;
+    padding: 3%;
+    padding-top: 30%;
+    padding-bottom: 20%;
+    background-image: linear-gradient( #E5E5E5, #fff);
+    color:black;
+}
+
+.a, .b{
+    width:50%;
+    height: 200px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    padding-left: 0;
+}
+
+.a p{
+    padding-left: 3.33%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    font-size: 11px;
+}
+
+.b p, .c p, .d p, .e p{
+    padding:5%;
+    font-size: 11px;
+}
+
+.a a, .b a, .c a, .d a, .e a{
+    font-size: 11px;
+}
+
+
+.c, .d, .e{
+    overflow: hidden;
+    width:33.33%;
+    height: 200px;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+a.footer-link:hover{
+    color: yellow;
+}
+
+.col_text{
+    padding-top: 3%;
+    font-size: 11px;
+}
+
+
+.popup{
+    padding-top: 5%;
+    font-size: 1rem;
+    padding-left: 1%;
+}
+
+.chosen{
+  padding-left: 11.8%;
+  padding-right: 11.8%;
+  padding-bottom: 20%;
+  margin-top: 30%;
+}
+
+.chosen_text{
+    width: 50%;
+    position:relative;
+    z-index: 1;
+    background-image: url(../img/selected-03.png);
+    background-size:cover;
+    background-repeat:repeat-y;
+    height: 1000px;
+}
+
+.projekty_menu {
+  text-align: left;
+    text-transform: uppercase;
+}
+
+.projekty_menu a{
+  color: #000;
+  padding-right: 2%;
+  font-size: 0.8rem;
+}
+
+.projekty_menu a:hover{
+  color: blue;
+}
+
+.projekty_menu ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.projekty_menu li {
+    display: inline;
+}
+
+
+.nadpis_projektu{
+  width:100%;
+  float: left;
+  padding-left: 11.8%;
+  padding-right: 11.8%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+
+#header__menu-button hide{
+    float: right;
+}
+
+.uvod{
+    width:100%;
+    padding:0;
+    margin:0;
+    display: flex;
+    height: 100%;
+}
+
+.pucpuc__logo{
+    width:14%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    left: 18%;
+    top: 50%;
+}
+
+#uvod__img{
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#uvod__img2{
+    width:50%;
+    background-image: url(./PUCPUC_files/stitok.jpg);
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100%;
+}
+
+.header__logo {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    height: 50px;
+    margin-left: -25px;
+}
+
+
+.intro__image{
+    margin:0px;float:right
+}
+
+.intro__text
+    {
+        clear: both; display: block; position: relative;
+    }
+
+
+.about p{
+    padding:0;
+    font-family: 'Krona One', sans-serif;
+}
+
+   .about{
+    padding:20px;
+    width:100%;
+    padding-left: 1.6%;
+}
+
+   .aboutdiv{
+    width:85%;
+    height:auto;
+    margin:7.5%;
+}
+
+.smer {
+    position: fixed;
+    bottom: 1%;
+    left:0.5%;
+    height: 30px;
+}
+
+
+
+
+
+
+@media (max-width: 900px) {
+    
+    a:hover:before{
+        display: none;}
+    
+    body{
+        
+    }
+    
+    #menu, #menuOpenButton, #menuCloseButton{
+       display:run-in;
+    }
+    
+    #menu {
+        background-color: #fff;
+        width: 100%;
+        padding: 15%;
+        padding-bottom: 30%;
+        margin-top: 12%;
+    }
+    
+    #menu a:hover{
+        color:red;
+    }
+    
+    .intro__text
+    {
+        text-align: center;
+    }
+    
+    .about p{
+    font-size: 13px;
+    padding: 50px;
+    }
+
+    .about{
+    padding:20px;
+    width:75%;
+    }
+    
+       .aboutdiv{
+    width:85%;
+    padding: 0;
+    margin: 7.5%;
+    height:auto;
+}
+    
+    .footer p{
+        font-size: 11px;
+    } 
+    
+    .a, .b{
+    width:100%;
+    height: 200px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    }  
+
+    .c, .d{
+    overflow: hidden;
+    width:50%;
+    height: 150px;
+    float: left;
+    padding: 3%;
+    margin: 0;
+    }
+
+   .e{
+     display: none;
+    }
+
+    
+   a:hover:before{ 
+       display: none;
+    }
+    
+.nadpis_projektu{
+  width:100%;
+  float: left;
+  padding-left: 5.5%;
+  padding-right: 5.5%;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+    
+    .popup{
+        padding-left: 2.8%;
+    }
+
+    
+   .copyright{
+    overflow: auto;
+    width: 100%;
+    padding: 3%;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    background-image: linear-gradient( #E5E5E5, #fff);
+    color:black;
+    padding-left: 10%;
+}
+
+    .meno{
+    padding-left: 5%;
+    padding-bottom:10%;
+    padding-top:60%;
+    width: 80%;
+}
+    .chosen{
+     margin-top: 60%;
+     margin-bottom: 20%;
+     padding-left: 5.5%;
+     padding-right: 5.5%;
+    }
+    
+    .patricia_b{
+    width:48%;
+    font-size: 11px;
+    font-family: 'Roboto Mono';
+    float:left;
+    z-index: 2;
+    position: absolute;
+    color: #000;
+    margin-left:50%;
+    margin-top: 20%;
+}
+
+.patricia_b a{
+    margin:0;
+    padding: 0;
+    font-size: 1rem;
+    text-align: left;
+    position: relative;
+    z-index: 1.2;
+    font-weight:100;
+    color: #000;
+    width:48%;   
+}
+    
+.pucpuc__logo{
+    width:20%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+  .projekty_menu a{
+  color: #000;
+  clear: both;
+      width: 100%;
+    }
+    
+.projekty_menu {
+  clear: both;
+  margin-top: 20%;
+}
+    .projekty_menu ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.projekty_menu li {
+    display: block;
+}
+ 
+
+}
